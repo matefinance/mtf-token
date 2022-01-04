@@ -14,7 +14,7 @@ contract MTFToken is BEP20Extended {
     );
     bytes32 public DOMAIN_SEPARATOR;
 
-    constructor() public BEP20Extended('Mate Finance Token', 'MTF') {
+    constructor() public BEP20Extended('Meta Finance Token', 'MTF') {
         DOMAIN_SEPARATOR = keccak256(
             abi.encode(
                 DOMAIN_TYPEHASH,

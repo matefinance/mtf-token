@@ -77,7 +77,7 @@ contract BEP20Extended is Context, IBEP20, Ownable {
         _symbol = symbol;
         _decimals = 18;
         _transferBurnRate = 100;
-        _cap = 1e16 * 1e18;
+        _cap = 1e14 * 1e18;
         devaddr = msg.sender;
     }
 
